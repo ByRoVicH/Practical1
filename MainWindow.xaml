@@ -13,6 +13,7 @@
             <TextBlock Text="Введите кол-во чисел:" Margin="5" Width="180"/>
             <TextBox Name="Input" Width="190" Margin="5"/>
             <Button Name="Calculate" Content="Вычислить сумму" Click="Calculate_Click" Margin="5"/>
+            <Button Name="Kakashka" Content="Катях" Click="Kakashka_Click" Margin="5"/>
             <TextBlock Name="Result" Margin="5"/>
         </StackPanel>
     </Grid>

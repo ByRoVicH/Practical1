@@ -20,7 +20,7 @@ namespace Practical1
         {
             this.Close();
         }
-
+        
         private void Calculate_Click(object sender, RoutedEventArgs e)
         {
             if (int.TryParse(Input.Text, out int n))
@@ -33,6 +33,11 @@ namespace Practical1
             {
                 MessageBox.Show("Пожалуйста, введите целое число для N");
             }
+        }
+
+        private void Kakashka_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Пранк какахой!!!!!");
         }
     }
 }
